@@ -1,0 +1,17 @@
+.texto-importante {
+  color: red;
+}
+
+.texto-nao-importante {
+  color: blue;
+}
+
+#texto-maior {
+  font-size: 100px;
+  color: black;
+}
+
+
+div {
+  background-color: yellow;
+}

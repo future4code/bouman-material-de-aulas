@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: green;
+}
+
+h1:last-child {
+  display: none;
+}
+
+div {
+  display: inline;
+}
+
+p {
+  display: inline;
+}
+
+div:first-of-type {
+  background-color: red;
+  color: white;
+}
+
+div:nth-child(3) {
+  background-color: orange;
+  color: yellow;
+}
+
+button {
+  display: block;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+}
+
