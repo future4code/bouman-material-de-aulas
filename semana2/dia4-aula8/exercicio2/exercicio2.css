@@ -1,0 +1,29 @@
+div:last-child {
+    background: red;
+    text-align: center;
+}
+
+table {
+    width: 300px;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+tr:nth-of-type(even) {
+    background: yellow;
+}
+
+tr:nth-of-type(odd) {
+    background: white;
+}
+
+tr:first-of-type {
+    background: orange;
+}
+
+div:last-child>button {
+    background: violet;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}

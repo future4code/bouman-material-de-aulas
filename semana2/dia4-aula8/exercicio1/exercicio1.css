@@ -1,0 +1,15 @@
+a {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+span a {
+    color: green;
+}
+
+span:last-of-type>p:last-of-type:hover {
+    color: orange
+}
