@@ -1,0 +1,29 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container div {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 20vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #container div {
+        border: 1px solid black;
+        border-radius: 2px;
+        height: 10vh;
+        display: grid;
+        color: red;
+        justify-items: center;
+        align-items: start;
+    }
+}

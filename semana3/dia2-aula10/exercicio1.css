@@ -1,0 +1,18 @@
+html {
+    font-size: 5px;
+}
+
+div {
+    width: 50vh;
+    height: 20vw;
+    font-size: 3rem;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+div div {
+    width: 50%;
+    height: 40%;
+    font-size: 70%;
+    padding: 0;
+}
