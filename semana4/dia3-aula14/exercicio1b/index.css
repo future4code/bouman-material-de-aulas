@@ -1,0 +1,27 @@
+img {
+    width: 200px;
+}
+
+#images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-da-imagem {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.botao-de-deletar {
+    color: red;
+    padding: 10px;
+    border: 1px dotted red;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.botao-de-deletar:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
