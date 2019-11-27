@@ -1,0 +1,12 @@
+.Container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+img {
+  margin-top: 10px;
+  width: 200px;
+  height: 100px;
+}
